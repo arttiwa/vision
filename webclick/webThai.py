@@ -191,6 +191,9 @@ def run_ui():
     inputJump_entry.grid(row=8, column=0)
     Label(window, text=" ").grid(row=10, column=0)
 
+    # Bind the Esc key to exit the program
+    window.bind('<Escape>', lambda event: window.quit())
+
     window.mainloop()
 if __name__ == "__main__":
     run_ui()
