@@ -123,7 +123,6 @@ def start_process(rows, inputrowsEP, nextCal, label_var, inputJump):
     else:
         print('position_singel_save_last not found after retry')
 
-
 def find_distance(label_var, nextCal_entry):
     label_var.set("Click on rows 1, 2, 3... in sequence")
 
